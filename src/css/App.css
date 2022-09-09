@@ -8,8 +8,45 @@
 
 /* header css */
 
-.header-Menu {
-  margin-left: 30px;
+.header {
+  display: flex;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  /* position: absolute; */
+  align-items: center;
+  background-color: var(--hunter-green);
+  font-size: 20px;
+  color: var(--timberwolf);
+}
+
+.name {
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 8px;
+  padding-left: 20px;
+}
+
+.nav-bar {
+  margin-left: auto;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  margin: 18px;
+  color: var(--timberwolf);
+  letter-spacing: 1px;
+}
+
+a:hover {
+  color: #fff;
+  background-color: var(--laurel-green);
+  border-radius: 5px;
+  transition: all 0.2s ease-out;
 }
 
 /* About me CSS */
@@ -103,10 +140,12 @@
 }
 .Resume {
   margin-right: 80px;
+  color: var(--fern-green);
 }
 
 .Skills {
   margin-left: 80px;
+  color: var(--fern-green);
 }
 
 /* footer css */
