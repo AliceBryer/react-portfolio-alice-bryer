@@ -6,7 +6,13 @@ const resume = () => {
       <div className="Resume">
         <h1>Resume</h1>
         <h2>
-          <a href="#">Clickable download link</a>
+          <a
+            href="assets\Alice Bryer - CV (1).pdf"
+            download="Alice Bryer-CV"
+            target="_blank"
+          >
+            Clickable download link
+          </a>
         </h2>
       </div>
       <div className="Skills">

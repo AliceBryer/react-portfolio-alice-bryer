@@ -1,0 +1,33 @@
+/* About me CSS */
+root {
+  --timberwolf: #dad7cdff;
+  --laurel-green: #a3b18aff;
+  --fern-green: #588157ff;
+  --hunter-green: #3a5a40ff;
+  --brunswick-green: #344e41ff;
+}
+
+.about-me-title {
+  color: var(--hunter-green);
+  margin: 30px;
+  text-align: center;
+}
+
+.image-Container {
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--laurel-green);
+}
+
+.image-Container img {
+  margin: 40px;
+  border-radius: 30px;
+}
+
+.bio {
+  text-align: center;
+  font-size: 2rem;
+}
