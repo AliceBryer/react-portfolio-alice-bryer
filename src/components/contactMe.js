@@ -1,15 +1,16 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
-import Input from "@mui/material/Input";
-import InputLabel from "@mui/material/InputLabel";
-import InputAdornment from "@mui/material/InputAdornment";
-import FormControl from "@mui/material/FormControl";
 import TextField from "@mui/material/TextField";
-import AccountCircle from "@mui/icons-material/AccountCircle";
 
 const contactMe = () => {
+  const [value, setValue] = React.useState("Controlled");
+
+  const handleChange = (event) => {
+    setValue(event.target.value);
+  };
+
   return (
-    <div>
+    <div className="contact-me">
       <h2 className="contact-me-title">
         {" "}
         Want to contact me? Fill in the form below or you can reach me
@@ -23,37 +24,45 @@ const contactMe = () => {
           linkedin
         </a>
       </h2>
-      <Box className="form" sx={{ "& > :not(style)": { m: 1 } }}>
-        <FormControl variant="standard">
-          <InputLabel htmlFor="input-with-icon-adornment">Name</InputLabel>
-          <Input
-            id="input-with-icon-adornment"
-            startAdornment={
-              <InputAdornment position="start">
-                <AccountCircle />
-              </InputAdornment>
-            }
+
+      <Box
+        className="form-container"
+        component="form"
+        sx={{
+          "& .MuiTextField-root": { m: 1, width: "25ch" },
+        }}
+        noValidate
+        autoComplete="off"
+      >
+        <div>
+          <TextField
+            id="outlined-multiline-flexible"
+            label="Name"
+            multiline
+            maxRows={4}
+            defaultValue=""
+            onChange={handleChange}
           />
-        </FormControl>
-        <TextField
-          id="input-with-icon-textfield"
-          label="Email"
-          InputProps={{
-            startAdornment: (
-              <InputAdornment position="start">
-                <AccountCircle />
-              </InputAdornment>
-            ),
-          }}
-          variant="standard"
-        />
-        <Box sx={{ display: "flex", alignItems: "flex-end" }}>
-          <AccountCircle sx={{ color: "action.active", mr: 1, my: 0.5 }} />
-          <TextField id="input-with-sx" label="Message" variant="standard" />
-        </Box>
+          <TextField
+            id="outlined-multiline-flexible"
+            label="Email"
+            multiline
+            maxRows={4}
+            defaultValue=""
+            onChange={handleChange}
+          />
+          <TextField
+            id="outlined-multiline-flexible"
+            label="Message"
+            multiline
+            maxRows={4}
+            defaultValue=""
+            onChange={handleChange}
+          />
+        </div>
+        <button className="submit-button"> Submit Message </button>
       </Box>
     </div>
   );
 };
-
 export default contactMe;
