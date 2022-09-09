@@ -52,3 +52,15 @@
   font-size: large;
   color: var(--brunswick-green);
 }
+
+/* contact me css */
+
+.contact-me-title {
+  text-align: center;
+  font-size: 30px;
+  color: var(--hunter-green);
+}
+
+.form {
+  border: solid var(--hunter-green);
+}
