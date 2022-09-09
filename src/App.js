@@ -14,6 +14,7 @@ import Portfolio from "./components/Portfolio";
 import ContactMe from "./components/ContactMe";
 import Resume from "./components/Resume";
 import AboutMe from "./components/AboutMe";
+import Footer from "./components/Footer";
 
 const pages = ["About Me", "Portfolio", "Contact Me", "Resume"];
 
@@ -129,6 +130,8 @@ const Header = () => {
       <ContactMe />
       {/* {Resume} */}
       <Resume />
+      {/* {Footer} */}
+      <Footer />
     </div>
   );
 };
