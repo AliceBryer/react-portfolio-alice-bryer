@@ -88,3 +88,12 @@
 .Skills {
   margin-left: 80px;
 }
+
+/* footer css */
+
+.icon-containers {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: left;
+}

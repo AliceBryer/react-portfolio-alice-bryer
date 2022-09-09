@@ -9,7 +9,8 @@ const aboutMe = () => {
           {" "}
           Welcome to my Bio! I'm Alice and I live in Staffordshire, West
           Midlands. I love spending time with my family, my dog, my partner and
-          my Nephew (All pictured below) .
+          my Nephew (All pictured below) . My favourite hobby is going to gigs -
+          I love rock and indie music.
         </p>
       </div>
       <div className="image-Container">
