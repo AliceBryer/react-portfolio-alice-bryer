@@ -14,7 +14,11 @@ const contactMe = () => {
         {" "}
         Want to contact me? Fill in the form below or you can reach me
         alicebryer123@gmail.com or my{" "}
-        <a href="https://www.linkedin.com/in/alicebryer123/" target="_blank">
+        <a
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/alicebryer123/"
+          target="_blank"
+        >
           {" "}
           linkedin
         </a>
