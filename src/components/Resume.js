@@ -1,4 +1,5 @@
 import * as React from "react";
+// const cv = require()
 
 const resume = () => {
   return (
@@ -7,9 +8,10 @@ const resume = () => {
         <h1>Resume</h1>
         <h2>
           <a
-            href="assets\Alice Bryer - CV (1).pdf"
-            download="Alice Bryer-CV"
-            target="_blank"
+          // rel="noreferrer"
+          // href={cv}
+          // download="Alice Bryer-CV"
+          // target="_blank"
           >
             Download my CV!
           </a>
