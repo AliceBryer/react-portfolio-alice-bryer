@@ -12,7 +12,7 @@ import MenuItem from "@mui/material/MenuItem";
 
 const pages = ["About Me", "Portfolio", "Contact Me", "Resume"];
 
-const Header = () => {
+const header = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
@@ -116,4 +116,4 @@ const Header = () => {
     </AppBar>
   );
 };
-export default Header;
+export default header;
