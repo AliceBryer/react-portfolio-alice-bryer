@@ -9,7 +9,8 @@ import Typography from "@mui/material/Typography";
 const projectData = [
   {
     title: "Spa Retreat Project",
-    description: "A group designed full-stack MERN application. ",
+    description:
+      "A group designed full-stack MERN application. Project based around a make believe spa.",
     screenshot:
       "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*",
     deployedLink:
@@ -28,7 +29,7 @@ const projectData = [
   {
     title: "Work Day Scheduler",
     description:
-      "A calendar app which uses local storage for scheduling your work day so you never miss a meeting again.",
+      "A calendar app which uses local storage for scheduling your work day",
     screenshot:
       "https://github.com/AliceBryer/Work-Day-Scheduler/raw/main/Assets/screenshot%20of%20application2.jpg",
     deployedLink: "https://alicebryer.github.io/Professional-Portfolio/",
@@ -71,7 +72,7 @@ const projectData = [
 const portfolio = () => {
   const projectCard = projectData.map((item) => {
     return (
-      <div>
+      <div className="single-portfolio-card">
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
             component="img"
@@ -80,7 +81,12 @@ const portfolio = () => {
             alt={item.title}
           />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography
+              className="project-title"
+              gutterBottom
+              variant="h5"
+              component="div"
+            >
               {item.title}
             </Typography>
             <Typography variant="body2" color="text.secondary">
@@ -100,7 +106,7 @@ const portfolio = () => {
     );
   });
 
-  return <div>{projectCard}</div>;
+  return <div className="card-container">{projectCard}</div>;
 };
 
 export default portfolio;

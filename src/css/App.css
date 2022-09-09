@@ -1,5 +1,5 @@
 /* About me CSS */
-root {
+:root {
   --timberwolf: #dad7cdff;
   --laurel-green: #a3b18aff;
   --fern-green: #588157ff;
@@ -30,4 +30,25 @@ root {
 .bio {
   text-align: center;
   font-size: 2rem;
+}
+
+/* portfolio css */
+
+.card-container {
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.single-portfolio-card {
+  margin: 30px;
+  box-shadow: var(--fern-green) 5px 5px;
+}
+
+.project-title {
+  text-align: center;
+  font-size: large;
+  color: var(--brunswick-green);
 }
