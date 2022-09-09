@@ -33,13 +33,25 @@ function Footer() {
       }}
     >
       <div className="icon-containers">
-        <a href="https://github.com/AliceBryer" target="_blank">
+        <a
+          href="https://github.com/AliceBryer"
+          target="_blank"
+          rel="noreferrer"
+        >
           <GitHubIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
         </a>
-        <a href="https://www.linkedin.com/in/alicebryer123/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/alicebryer123/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <LinkedInIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
         </a>
-        <a href="https://twitter.com/alicebryer1" target="_blank">
+        <a
+          href="https://twitter.com/alicebryer1"
+          target="_blank"
+          rel="noreferrer"
+        >
           <TwitterIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
         </a>
       </div>
