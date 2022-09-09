@@ -71,3 +71,20 @@
 .form {
   border: solid var(--hunter-green);
 }
+
+/* Resume css */
+
+.container {
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.Resume {
+  margin-right: 80px;
+}
+
+.Skills {
+  margin-left: 80px;
+}
