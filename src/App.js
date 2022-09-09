@@ -10,7 +10,10 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 
-import Card from "./components/Card";
+import Portfolio from "./components/Portfolio";
+import ContactMe from "./components/ContactMe";
+import Resume from "./components/Resume";
+import AboutMe from "./components/AboutMe";
 
 const pages = ["About Me", "Portfolio", "Contact Me", "Resume"];
 
@@ -27,6 +30,7 @@ const Header = () => {
 
   return (
     <div>
+      {/* header & nav bar */}
       <AppBar position="static">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
@@ -117,7 +121,14 @@ const Header = () => {
           </Toolbar>
         </Container>
       </AppBar>
-      <Card />
+      {/* {portfolio} */}
+      <AboutMe />
+      {/* {portfolio} */}
+      <Portfolio />
+      {/* {contact Me} */}
+      <ContactMe />
+      {/* {Resume} */}
+      <Resume />
     </div>
   );
 };
