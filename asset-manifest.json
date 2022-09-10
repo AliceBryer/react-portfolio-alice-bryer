@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-portfolio-alice-bryer/static/css/main.715908a4.css",
-    "main.js": "/react-portfolio-alice-bryer/static/js/main.40c99720.js",
+    "main.js": "/react-portfolio-alice-bryer/static/js/main.1e576635.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio-alice-bryer/static/js/787.a2cb61a6.chunk.js",
     "index.html": "/react-portfolio-alice-bryer/index.html",
     "main.715908a4.css.map": "/react-portfolio-alice-bryer/static/css/main.715908a4.css.map",
-    "main.40c99720.js.map": "/react-portfolio-alice-bryer/static/js/main.40c99720.js.map",
+    "main.1e576635.js.map": "/react-portfolio-alice-bryer/static/js/main.1e576635.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio-alice-bryer/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.715908a4.css",
-    "static/js/main.40c99720.js"
+    "static/js/main.1e576635.js"
   ]
 }
