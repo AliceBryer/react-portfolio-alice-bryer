@@ -8,10 +8,11 @@ const resume = () => {
         <h1>Resume</h1>
         <h2>
           <a
-          // rel="noreferrer"
-          // href={cv}
-          // download="Alice Bryer-CV"
-          // target="_blank"
+            href="www.google.com"
+            // rel="noreferrer"
+            // href={cv}
+            // download="Alice Bryer-CV"
+            // target="_blank"
           >
             Download my CV!
           </a>
