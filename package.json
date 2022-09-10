@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": " https://alicebryer.github.io",
+  "homepage": " https://alicebryer.github.io/react-portfolio-alice-bryer",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
@@ -13,6 +13,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "husky": "^8.0.1",
+    "gh-pages": "^4.0.0",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "react": "^18.2.0",
@@ -56,8 +57,5 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
