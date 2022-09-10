@@ -31,6 +31,7 @@ MIT Licence
 ## Deployed Link
 
 ```
+https://alicebryer.github.io/react-portfolio-alice-bryer/
 
 ```
 
