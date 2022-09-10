@@ -1,13 +1,13 @@
-import * as React from "react";
+import React from "react";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 
-const contactMe = () => {
-  // const [value, setValue] = React.useState("Controlled");
+const ContactMe = () => {
+  const [value, setValue] = React.useState("Controlled");
 
-  // const handleChange = (event) => {
-  //   setValue(event.target.value);
-  // };
+  const handleChange = (event) => {
+    setValue(event.target.value);
+  };
 
   return (
     <div className="contact-me">
@@ -41,7 +41,7 @@ const contactMe = () => {
             multiline
             maxRows={4}
             defaultValue=""
-            // onChange={handleChange}
+            onChange={handleChange}
           />
           <TextField
             id="outlined-multiline-flexible"
@@ -57,7 +57,7 @@ const contactMe = () => {
             multiline
             maxRows={4}
             defaultValue=""
-            // onChange={handleChange}
+            onChange={handleChange}
           />
         </div>
         <button className="submit-button"> Submit Message </button>
@@ -65,4 +65,4 @@ const contactMe = () => {
     </div>
   );
 };
-export default contactMe;
+export default ContactMe;
