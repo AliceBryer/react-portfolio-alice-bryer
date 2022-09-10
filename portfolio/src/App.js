@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Wrapper from "./components/Wrapper";
-import "../src/css/App.css";
+import "./css/App.css";
 
 const App = () => {
   return (
