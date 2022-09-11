@@ -1,22 +1,17 @@
 import * as React from "react";
-// const cv = require()
+import DownloadIcon from "@mui/icons-material/Download";
+import cv from "../assets/AliceBryer-Resume.pdf";
 
-const resume = () => {
+const Resume = () => {
   return (
     <div className="container">
       <div className="Resume">
-        <h1>Resume</h1>
-        <h2>
-          <a
-            href="www.google.com"
-            // rel="noreferrer"
-            // href={cv}
-            // download="Alice Bryer-CV"
-            // target="_blank"
-          >
-            Download my CV!
-          </a>
-        </h2>
+        <h1>Download my CV</h1>
+        <a href={cv} download>
+          <DownloadIcon
+            sx={{ fontSize: 100, display: { xs: "none", md: "flex" }, mr: 1 }}
+          />
+        </a>
       </div>
       <div className="Skills">
         <h1>Skills and Technologies</h1>
@@ -41,4 +36,4 @@ const resume = () => {
   );
 };
 
-export default resume;
+export default Resume;

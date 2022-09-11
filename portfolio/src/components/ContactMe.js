@@ -49,7 +49,7 @@ const ContactMe = () => {
             multiline
             maxRows={4}
             defaultValue=""
-            // onChange={handleChange}
+            onChange={handleChange}
           />
           <TextField
             id="outlined-multiline-flexible"
